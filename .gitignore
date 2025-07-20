@@ -1,0 +1,16 @@
+Debug/
+Release/
+.vscode/
+.settings/
+*.o
+*.obj
+*.exe
+*.dll
+*.pdb
+*.log
+*.tmp
+*.cache
+*.suo
+*.user
+*.ncb
+Drivers/st7789
