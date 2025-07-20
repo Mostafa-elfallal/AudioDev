@@ -1,0 +1,14 @@
+SET(SOURCES screens/ui_Splash.c
+    screens/ui_Music_Player.c
+    ui.c
+    components/ui_comp_hook.c
+    ui_helpers.c
+    images/ui_img_pattern_png.c
+    images/ui_img_sls_logo_png.c
+    images/ui_img_play_png.c
+    images/ui_img_album_png.c
+    images/ui_img_backward_png.c
+    images/ui_img_forward_png.c
+    images/ui_img_1672721641.c)
+
+add_library(ui ${SOURCES})
